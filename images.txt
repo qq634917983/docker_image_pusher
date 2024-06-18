@@ -1,3 +1,2 @@
 nginx
-cnk3x/xunlei
 xhofe/alist:latest
