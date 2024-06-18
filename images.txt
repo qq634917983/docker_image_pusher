@@ -5,3 +5,4 @@ cnk3x/xunlei
 
 ubuntu:22.04
 hello-world
+yinheili/docker-thunder-xware
