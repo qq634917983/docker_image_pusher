@@ -1,3 +1,14 @@
+#安装 docker
+ 
+Docker是一种应用程序的容器化部署方案，简单来说可以将整个应用程序，配置，甚至依赖以及库函数等一起打包，然后放到一个隔离环境中运行。我有个建议就是如果软件提供了Docker的安装方式，那就尽量用docker装吧。用上docker，只要别人那里能跑的程序，到你机器上一定也能跑。完全不用担心依赖兼容性，系统差异等棘手问题
+安装docker本体，需要执行以下命令。
+
+sudo apt-get install ca-certificates curl
+curl -fsSL http://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+
 # Docker Images Pusher
 
 使用Github Action将国外的Docker镜像转存到阿里云私有仓库，供国内服务器使用，免费易用<br>
